@@ -64,8 +64,7 @@ first_name <- c("Rob", "Jane", "Julie")
 LastName<-c("Andrews","Hill","Johnstone")
 
 # demontsrate how to run a linter on a script
-# uncomment the below if not installed
-# install.packages("lintr)
+# install.packages("lintr) # uncomment if not yet installed
 library("lintr")
 lint("bad_style.R")
 
@@ -108,8 +107,7 @@ vec <- c(1:100)
 count_obs_in_vector(vec)
 
 # demonstrate how to create a doctring for the function above
-# uncomment the below if not yet installed
-# install.packages(c("devtools", "roxygen2"))
+# install.packages(c("devtools", "roxygen2")) # uncomment if not yet installed
 devtools::create("ExamplePackage")
 # save the below in "ExamplePackage/R/count_obs_in_vector.R"
 
@@ -150,3 +148,6 @@ library("ExamplePackage")
 # call help
 ?count_obs_in_vector
 
+## Dependencies ##
+
+# install.packages("renv") # uncomment if not yet installed
