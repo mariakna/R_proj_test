@@ -151,3 +151,7 @@ library("ExamplePackage")
 ## Dependencies ##
 
 # install.packages("renv") # uncomment if not yet installed
+# activate
+renv::init()
+# load contents 
+renv::restore()
